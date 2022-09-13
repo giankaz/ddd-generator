@@ -1,4 +1,5 @@
 const fsExtra = require("fs-extra");
+const { resolve } = require('path') 
 
 function genShared(path) {
   try {
@@ -8,7 +9,7 @@ function genShared(path) {
     }
     console.log(actualDir)
 
-    fsExtra.copy("./shared", actualDir);
+    fsExtra.copy(resolve(__dirname, 'shared'), actualDir);
 
     console.log("@shared structure generated!");
   } catch (err) {
