@@ -1,6 +1,6 @@
 {
   "name": "ddd-generator-bft",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "ddd repository generator",
   "main": "index.ts",
   "scripts": {
