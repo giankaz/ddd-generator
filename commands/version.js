@@ -1,7 +1,10 @@
 const fs = require("fs");
+const { resolve } = require('path')
 
 async function version() {
-  const res = fs.readFileSync("package.json");
+
+
+  const res = fs.readFileSync(resolve(process.cwd(), process.argv[1], '/package.json') );
 
   const data = JSON.parse(res);
 
