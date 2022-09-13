@@ -10,7 +10,7 @@
 ```shell
   ddd gen <folder-name>
   or
-  ddd gen<path/folder-name>
+  ddd gen <path/folder-name>
 ```
 
 
