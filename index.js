@@ -1,8 +1,8 @@
 #! /usr/bin/env node
 const { program } = require("commander");
-const generateDDD = require("./commands/ddd");
-const genShared = require("./commands/genShared");
-const version = require("./commands/version");
+const generateDDD = require("./ddd");
+const genShared = require("./genShared");
+const version = require("./version");
 
 program
   .command("gen <folder-name>")
