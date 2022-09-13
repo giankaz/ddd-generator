@@ -8,7 +8,7 @@ function genShared(path) {
     }
     console.log(actualDir)
 
-    fsExtra.copy("shared", actualDir);
+    fsExtra.copySync("./shared", actualDir);
 
     console.log("@shared structure generated!");
   } catch (err) {
