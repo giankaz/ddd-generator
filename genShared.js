@@ -7,8 +7,7 @@ function genShared(path) {
     if (path) {
       actualDir += path;
     }
-    console.log(actualDir)
-
+    
     fsExtra.copy(resolve(__dirname, 'shared'), actualDir);
 
     console.log("@shared structure generated!");
