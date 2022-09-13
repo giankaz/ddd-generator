@@ -1,0 +1,18 @@
+{
+  "name": "ddd-generator-bft",
+  "version": "1.0.1",
+  "description": "ddd repository generator",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "giankaz",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^9.4.0",
+    "conf": "^10.2.0"
+  },
+  "bin": {
+    "ddd": "./index.js"
+  }
+}
