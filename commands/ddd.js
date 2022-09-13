@@ -24,9 +24,15 @@ function generateDDD(name) {
     fs.mkdirSync(actualDir + "domain/repository");
     fs.mkdirSync(actualDir + "domain/validators");
     fs.mkdirSync(actualDir + "domain/value-objects");
+
+    fs.mkdirSync(actualDir + "infra/");
+    fs.mkdirSync(actualDir + "infra/db");
+    fs.mkdirSync(actualDir + "infra/db/in-memory");
+    fs.mkdirSync(actualDir + "infra/db/sequelize");
+
+
     console.log("DDD structure generated!");
   } catch (err) {
-    console.log(err);
   }
 }
 

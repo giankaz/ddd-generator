@@ -13,6 +13,13 @@
   ddd gen <path/folder-name>
 ```
 
+## @shared files
+
+```shell
+  ddd shared 
+  or
+  ddd shared <path>
+```
 
 ## Help
 
